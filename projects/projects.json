@@ -1,9 +1,9 @@
 [
   {
-    "name": "NotyStack Android",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "name": "Disaster Recovery for Mission-Critical Apps",
+    "desc": "Develop a disaster recovery strategy for high availability and failover capabilities. Designed a hybrid cloud solution between AWS and Azure to provide failover for mission-critical applications. Automated recovery processes reduced failover time by 70%, achieving a 99.9% uptime SLA.",
     "image": "notystackandroid",
-    "category": "android",
+    "category": "devops",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
       "code": "https://github.com/jigar-sable/notystack-android"
