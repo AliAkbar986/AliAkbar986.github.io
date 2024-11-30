@@ -1,47 +1,47 @@
 [
     {
-        "name": "ReactJS",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/?size=100&id=QsjZXZc0q6ln&format=png&color=000000"
     },
     {
-        "name": "ExpressJS",
-        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+        "name": "Terraform",
+        "icon": "https://img.icons8.com/?size=100&id=kEkT1u7zTDk5&format=png&color=000000"
     },
     {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+        "name": "DevOps",
+        "icon": "https://img.icons8.com/?size=100&id=CLa3T2WlbrOP&format=png&color=000000"
     },
     {
-        "name": "Redux",
-        "icon": "https://img.icons8.com/color/48/000000/redux.png"
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000"
     },
     {
-        "name": "Firebase",
-        "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+        "name": "AWS",
+        "icon": "https://img.icons8.com/?size=100&id=wU62u24brJ44&format=png&color=000000"
     },
     {
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+        "name": "HELM",
+        "icon": "https://img.icons8.com/?size=100&id=QNB1wkMEKDtR&format=png&color=000000"
     },
     {
-        "name": "MaterialUI",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
+        "name": "Grafana",
+        "icon": "https://img.icons8.com/?size=100&id=9uVrNMu3Zx1K&format=png&color=000000"
     },
     {
-        "name": "ChakraUI",
-        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
+        "name": "Prometheus",
+        "icon": "https://img.icons8.com/?size=100&id=NrcKwdmlOBfE&format=png&color=000000"
     },
     {
-        "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+        "name": "Azure",
+        "icon": "https://img.icons8.com/?size=100&id=VLKafOkk3sBX&format=png&color=000000"
     },
     {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        "name": "GCP",
+        "icon": "https://img.icons8.com/?size=100&id=20774&format=png&color=000000"
     },
     {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
+        "name": "Ansible",
+        "icon": "https://img.icons8.com/?size=100&id=SJNUZD3A4el4&format=png&color=000000"
     },
     {
         "name": "HTML5",
@@ -56,16 +56,16 @@
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
-        "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+        "name": "Docker",
+        "icon": "https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
     },
     {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
+        "name": "Jenkins",
+        "icon": "https://img.icons8.com/?size=100&id=39292&format=png&color=000000"
     },
     {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+        "name": "GitlabCI",
+        "icon": "https://img.icons8.com/?size=100&id=34886&format=png&color=000000"
     },
     {
         "name": "Python",
