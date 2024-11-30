@@ -3,7 +3,11 @@
     "name": "Disaster Recovery for Mission-Critical Apps",
     "desc": "Develop a disaster recovery strategy for high availability and failover capabilities. Designed a hybrid cloud solution between AWS and Azure to provide failover for mission-critical applications. Automated recovery processes reduced failover time by 70%, achieving a 99.9% uptime SLA.",
     "image": "DR",
-    "category": "devops"
+    "category": "devops",
+    "links": {
+      "view": "https://www.linkedin.com/in/ali-akbar-dev/",
+      "code": "https://github.com/jigar-sable/weatherly-android"
+    }
   
   },
   {
@@ -12,18 +16,19 @@
     "image": "karpenter",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
+      "view": "https://www.linkedin.com/in/ali-akbar-dev/",
+      "code": "https://github.com/jigar-sable/weatherly-android"
     }
+  
   },
   {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
+    "name": "GitOps Workflow with ArgoCD and Helm",
+    "desc": "Set up a GitOps-based deployment pipeline to ensure version-controlled, automated Kubernetes deployments. Implemented a GitOps workflow using ArgoCD to sync application manifests stored in Git with Kubernetes clusters. Managed configurations with Helm Charts and improved deployment speed and reliability.",
+    "image": "Argo",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/newsbox-android"
+      "view": "https://www.linkedin.com/in/ali-akbar-dev/",
+      "code": "https://github.com/jigar-sable/weatherly-android"
     }
   },
   {
@@ -32,7 +37,7 @@
     "image": "weatherlyandroid",
     "category": "android",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "view": "https://www.linkedin.com/in/ali-akbar-dev/",
       "code": "https://github.com/jigar-sable/weatherly-android"
     }
   },
@@ -42,7 +47,7 @@
     "image": "instagrammern",
     "category": "mern",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
+      "view": "https://www.linkedin.com/in/ali-akbar-dev/",
       "code": "https://github.com/jigar-sable/instagram-mern"
     }
   },
@@ -52,7 +57,7 @@
     "image": "flipkartmern",
     "category": "mern",
     "links": {
-      "view": "https://flipkartwebs.herokuapp.com/",
+      "view": "https://www.linkedin.com/in/ali-akbar-dev/",
       "code": "https://github.com/jigar-sable/flipkart-mern"
     }
   },
@@ -62,7 +67,7 @@
     "image": "resumegen",
     "category": "mern",
     "links": {
-      "view": "https://resumegenx.netlify.app/",
+      "view": "https://www.linkedin.com/in/ali-akbar-dev/",
       "code": "https://github.com/jigar-sable/resumegen"
     }
   },
@@ -72,7 +77,7 @@
     "image": "reactprojects",
     "category": "mern",
     "links": {
-      "view": "https://reactjsprojects.herokuapp.com/",
+      "view": "https://www.linkedin.com/in/ali-akbar-dev/",
       "code": "https://github.com/jigar-sable/React-Projects"
     }
   },
@@ -300,26 +305,6 @@
     "name": "Burger Shop Dummy",
     "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
     "image": "burgerweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Indian Temples",
-    "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-    "image": "templeweb",
     "category": "basicweb",
     "links": {
       "view": "#",
