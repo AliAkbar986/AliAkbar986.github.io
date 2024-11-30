@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Akbar | DevOps Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1 data-aos="fade-down">Ali Akbar</h1>
+            <p data-aos="fade-up">DevOps Engineer | Automation Expert | Cloud Architect</p>
+            <a href="#contact" class="cta-button" data-aos="zoom-in">Contact Me</a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 data-aos="fade-right">About Me</h2>
+            <p data-aos="fade-left">
+                I am a results-driven DevOps Engineer with over 3 years of experience in designing, implementing, 
+                and optimizing DevOps solutions for organizations ranging from startups to enterprises. My expertise lies in automation, 
+                scalability, and building resilient systems.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section light-bg">
+        <div class="container">
+            <h2 data-aos="fade-right">Skills</h2>
+            <div class="skills-grid" data-aos="zoom-in">
+                <div><i class="fab fa-aws"></i> <strong>Cloud Platforms:</strong> AWS, Azure, GCP, Digital Ocean, Hetzner</div>
+                <div><i class="fas fa-tools"></i> <strong>DevOps Tools:</strong> Jenkins, GitHub Actions, GitlabCI, BitBucket, Azure DevOps, ArgoCD</div>
+                <div><i class="fab fa-docker"></i> <strong>Containerization:</strong> Docker, Kubernetes, Helm</div>
+                <div><i class="fas fa-code"></i> <strong>Programming:</strong> Python, Bash, C++</div>
+                <div><i class="fas fa-chart-bar"></i> <strong>Monitoring:</strong> Grafana, Prometheus, DataDog</div>
+                <div><i class="fas fa-cloud"></i> <strong>Infrastructure:</strong> Terraform, CloudFormation, Ansible</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+    <div class="container">
+        <h2>Projects</h2>
+        <!-- High Availability Microservices -->
+        <div class="project" data-aos="fade-up">
+            <h3>1. High Availability Microservices</h3>
+            <p><strong>Objective:</strong> Migrate a monolithic application to a microservices architecture for improved scalability and resilience.</p>
+            <p>Led the migration of a high-traffic application to AWS ECS, leveraging Fargate for serverless compute and DynamoDB for scalable storage. Enhanced scalability by 40% and reduced operational costs by 25%.</p>
+            <p><strong>Technologies:</strong> AWS ECS, Fargate, API Gateway, DynamoDB</p>
+        </div>
+
+        <!-- Disaster Recovery for Mission-Critical Apps -->
+        <div class="project" data-aos="fade-up">
+            <h3>2. Disaster Recovery for Mission-Critical Apps</h3>
+            <p><strong>Objective:</strong> Develop a disaster recovery strategy for high availability and failover capabilities.</p>
+            <p>Designed a hybrid cloud solution between AWS and Azure to provide failover for mission-critical applications. Automated recovery processes reduced failover time by 70%, achieving a 99.9% uptime SLA.</p>
+            <p><strong>Technologies:</strong> AWS (Route 53, VPC), Azure (Site Recovery, DNS)</p>
+        </div>
+
+        <!-- Kubernetes Cluster Autoscaling with Karpenter -->
+        <div class="project" data-aos="fade-up">
+            <h3>3. Kubernetes Cluster Autoscaling with Karpenter</h3>
+            <p><strong>Objective:</strong> Implement dynamic scaling of Kubernetes clusters using Karpenter to optimize resource usage and costs.</p>
+            <p>Integrated Karpenter for cluster autoscaling, enabling efficient use of Spot Instances and on-demand scaling. Configured policies for CPU, memory, and GPU workloads to handle traffic spikes with minimal cost overhead.</p>
+            <p><strong>Technologies:</strong> Kubernetes, Karpenter, AWS EC2, Helm, Prometheus</p>
+        </div>
+
+        <!-- GitOps Workflow with ArgoCD and Helm -->
+        <div class="project" data-aos="fade-up">
+            <h3>4. GitOps Workflow with ArgoCD and Helm</h3>
+            <p><strong>Objective:</strong> Set up a GitOps-based deployment pipeline to ensure version-controlled, automated Kubernetes deployments.</p>
+            <p>Implemented a GitOps workflow using ArgoCD to sync application manifests stored in Git with Kubernetes clusters. Managed configurations with Helm Charts and improved deployment speed and reliability.</p>
+            <p><strong>Technologies:</strong> ArgoCD, Helm, Kubernetes, Grafana</p>
+        </div>
+
+        <!-- Service Mesh Implementation with Istio -->
+        <div class="project" data-aos="fade-up">
+            <h3>5. Service Mesh Implementation with Istio</h3>
+            <p><strong>Objective:</strong> Enhance microservices security, traffic management, and observability using Istio service mesh.</p>
+            <p>Deployed Istio to handle advanced traffic routing, mutual TLS authentication, and real-time observability for microservices. Configured canary deployments with traffic splitting to safely roll out updates.</p>
+            <p><strong>Technologies:</strong> Kubernetes, Istio, Kiali, Jaeger, Prometheus</p>
+        </div>
+
+        <!-- Advanced Observability with OpenTelemetry -->
+        <div class="project" data-aos="fade-up">
+            <h3>6. Advanced Observability with OpenTelemetry</h3>
+            <p><strong>Objective:</strong> Implement distributed tracing and monitoring for Kubernetes-based microservices.</p>
+            <p>Configured OpenTelemetry for end-to-end tracing and metrics collection. Aggregated logs and traces using Grafana Tempo and Loki for unified observability. Dashboards provided real-time insights into service performance.</p>
+            <p><strong>Technologies:</strong> OpenTelemetry, Grafana Tempo, Loki, Prometheus, Kubernetes</p>
+        </div>
+
+        <!-- Kubernetes Security with OPA and Falco -->
+        <div class="project" data-aos="fade-up">
+            <h3>7. Kubernetes Security with OPA and Falco</h3>
+            <p><strong>Objective:</strong> Strengthen Kubernetes security with policy enforcement and runtime threat detection.</p>
+            <p>Deployed Open Policy Agent (OPA) to enforce RBAC and workload security policies. Configured Falco for runtime threat detection and alerted teams on suspicious behaviors using Prometheus AlertManager and Slack.</p>
+            <p><strong>Technologies:</strong> OPA, Falco, Kubernetes, Prometheus AlertManager, Slack API</p>
+        </div>
+
+        <!-- Blue-Green Deployment with Spinnaker -->
+        <div class="project" data-aos="fade-up">
+            <h3>8. Blue-Green Deployment with Spinnaker</h3>
+            <p><strong>Objective:</strong> Implement blue-green deployment strategies to minimize downtime and ensure safe rollouts.</p>
+            <p>Orchestrated Kubernetes deployments using Spinnaker, enabling seamless traffic switching during updates. Automated rollback mechanisms ensured fast recovery from failed deployments.</p>
+            <p><strong>Technologies:</strong> Spinnaker, Kubernetes, Prometheus, Grafana</p>
+        </div>
+
+        <div class="project">
+            <h3>9. Multi-Cloud CI/CD Automation</h3>
+            <p>
+                Automated deployment across AWS, Azure, and GCP using Jenkins, Terraform, and Ansible. 
+                This streamlined deployment processes, reducing errors by 40% and deployment time by 60%.
+            </p>
+            <p><strong>Technologies:</strong> Jenkins, Terraform, Ansible, AWS, Azure, GCP</p>
+        </div>
+
+        <div class="project">
+            <h3>10. Enterprise Kubernetes Implementation</h3>
+            <p>
+                Designed and implemented a multi-region Kubernetes cluster with zero-downtime deployments. 
+                Optimized global traffic management by 30% and enhanced application availability during regional outages.
+            </p>
+            <p><strong>Technologies:</strong> Kubernetes, Helm, Terraform, AWS Route 53, Prometheus</p>
+        </div>
+
+        <div class="project">
+            <h3>11. Disaster Recovery for Mission-Critical Apps</h3>
+            <p>
+                Built a hybrid cloud solution between AWS and Azure to provide failover for critical systems, 
+                ensuring 99.9% uptime SLA. Automated recovery processes reduced failover time by 70%.
+            </p>
+            <p><strong>Technologies:</strong> AWS (Route 53, VPC), Azure (Site Recovery, DNS)</p>
+        </div>
+
+        <div class="project">
+            <h3>12. Application Cost Optimization</h3>
+            <p>
+                Migrated a legacy on-premise system to AWS, using spot instances and auto-scaling groups 
+                to reduce infrastructure costs by 25%. Integrated monitoring with Grafana to track performance metrics.
+            </p>
+            <p><strong>Technologies:</strong> AWS EC2, CloudWatch, Grafana</p>
+        </div>
+
+        <div class="project">
+            <h3>13. AI-Powered DevOps Monitoring</h3>
+            <p>
+                Developed a custom AI-based monitoring solution for real-time anomaly detection in Kubernetes clusters. 
+                This reduced incident resolution time by 50% and provided proactive alerts for critical failures.
+            </p>
+            <p><strong>Technologies:</strong> Kubernetes, Python, Prometheus, Grafana, TensorFlow</p>
+        </div>
+
+        <div class="project">
+            <h3>14. E-Commerce Platform Migration</h3>
+            <p>
+                Migrated a high-traffic e-commerce platform from monolithic architecture to microservices on AWS ECS. 
+                Enhanced scalability to handle 10x traffic spikes during peak seasons with zero downtime.
+            </p>
+            <p><strong>Technologies:</strong> AWS ECS, Fargate, API Gateway, DynamoDB</p>
+        </div>
+
+        <div class="project">
+            <h3>15. Internal DevOps Tooling</h3>
+            <p>
+                Designed an internal self-service portal for developers to provision infrastructure and CI/CD pipelines. 
+                Reduced onboarding time for new developers by 80%.
+            </p>
+            <p><strong>Technologies:</strong> React, Python Flask, AWS Lambda, Jenkins</p>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="experience" class="section light-bg">
+    <div class="container">
+        <h2 data-aos="fade-right">Work Experience</h2>
+
+        <!-- VITALSTEER LLC -->
+        <div class="job" data-aos="fade-up">
+            <h3>DevOps Engineer | VITALSTEER LLC | April 2024 – Present</h3>
+            <ul>
+                <li>Developed and deployed Python and Java microservices applications using GitLab CI/CD pipelines to AWS ECS.</li>
+                <li>Implemented centralized compliance, security, and governance strategies for cloud infrastructure.</li>
+                <li>Managed Kubernetes-based workloads with Istio, Network Policies, HPAs, StatefulSets, and Karpenter using Terraform and ArgoCD.</li>
+                <li>Designed serverless solutions using AWS Lambda integrated with API Gateway, DynamoDB, and Step Functions.</li>
+            </ul>
+        </div>
+
+        <!-- ESSENTIA -->
+        <div class="job" data-aos="fade-up">
+            <h3>DevOps Engineer | ESSENTIA | March 2024 – Present</h3>
+            <ul>
+                <li>Created CI/CD pipelines for Django applications deployed to Azure and dedicated servers.</li>
+                <li>Migrated monolithic PHP and mobile applications to Azure, improving disaster recovery and high availability.</li>
+                <li>Deployed and configured Kurento Media Server on Azure VMs and VPS, integrating ICE, STUN, and TURN servers for PHP and Python applications.</li>
+            </ul>
+        </div>
+
+        <!-- QUADACTS -->
+        <div class="job" data-aos="fade-up">
+            <h3>AWS DevOps Engineer | QUADACTS | April 2023 – February 2024</h3>
+            <ul>
+                <li>Implemented high-availability and disaster recovery solutions, ensuring 99% system uptime.</li>
+                <li>Migrated applications to AWS, resulting in a 20% reduction in operational costs.</li>
+                <li>Optimized infrastructure by automating scaling and resource provisioning using AWS Auto Scaling and CloudFormation.</li>
+            </ul>
+        </div>
+
+        <!-- PUFFERSOFT -->
+        <div class="job" data-aos="fade-up">
+            <h3>AWS DevOps Engineer | PUFFERSOFT | March 2022 – April 2023</h3>
+            <ul>
+                <li>Orchestrated the migration of 5 legacy systems to AWS, reducing costs by 30% and improving system reliability by 20%.</li>
+                <li>Enhanced web application security using AWS WAF and centralized governance with AWS Security Hub and Config.</li>
+                <li>Deployed virtual desktop solutions using AWS Workspaces, enabling remote work capabilities.</li>
+            </ul>
+        </div>
+
+        <!-- PUFFERSOFT (Trainee) -->
+        <div class="job" data-aos="fade-up">
+            <h3>DevOps Trainee | PUFFERSOFT | December 2021 – March 2022</h3>
+            <ul>
+                <li>Assisted in deploying machine learning applications on GPU-based AWS EC2 instances.</li>
+                <li>Configured AWS Amplify for hosting and managing serverless web applications.</li>
+            </ul>
+        </div>
+
+        <!-- XELENET -->
+        <div class="job" data-aos="fade-up">
+            <h3>Intern | XELENET | September 2021 – December 2021</h3>
+            <ul>
+                <li>Developed web applications using Python, CSS, and JavaScript.</li>
+                <li>Automated tasks and processes using Python scripting.</li>
+                <li>Created demo web applications, showcasing responsive design and basic functionality.</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="section">
+    <div class="container">
+        <h2 data-aos="fade-right">Contact Me</h2>
+        <p>Email: aliakbaryt01@gmail.com</p>
+        <p>Location: Lahore, Pakistan</p>
+        <p>Phone: +923326048232</p>
+        <p>
+            <a href="https://www.linkedin.com/in/ali-akbar-dev/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+            <a href="https://github.com/AliAkbar986" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </p>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ali Akbar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
