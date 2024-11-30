@@ -2,17 +2,14 @@
   {
     "name": "Disaster Recovery for Mission-Critical Apps",
     "desc": "Develop a disaster recovery strategy for high availability and failover capabilities. Designed a hybrid cloud solution between AWS and Azure to provide failover for mission-critical applications. Automated recovery processes reduced failover time by 70%, achieving a 99.9% uptime SLA.",
-    "image": "notystackandroid",
-    "category": "devops",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
-    }
+    "image": "DR",
+    "category": "devops"
+  
   },
   {
-    "name": "SPPU Engg Prep",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepandroid",
+    "name": "Kubernetes Cluster Autoscaling with Karpenter",
+    "desc": "Implement dynamic scaling of Kubernetes clusters using Karpenter to optimize resource usage and costs. Integrated Karpenter for cluster autoscaling, enabling efficient use of Spot Instances and on-demand scaling. Configured policies for CPU, memory, and GPU workloads to handle traffic spikes with minimal cost overhead.",
+    "image": "karpenter",
     "category": "android",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
